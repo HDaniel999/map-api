@@ -1,0 +1,28 @@
+{
+  "name": "map-api",
+  "version": "1.0.0",
+  "description": "Nodejs api to store and consume locations based on their coordinates",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDaniel999/map-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDaniel999/map-api/issues"
+  },
+  "homepage": "https://github.com/HDaniel999/map-api#readme"
+}
