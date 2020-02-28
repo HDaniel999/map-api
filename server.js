@@ -9,7 +9,7 @@ app.use(express.json())
 
 const apiRouter = require('./api')
 
-mongoose.connect('mongodb://localhost', { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(config.database_url, { useUnifiedTopology: true, useNewUrlParser: true })
   .then(
     () => {
       console.log('Database Ready For Action')
